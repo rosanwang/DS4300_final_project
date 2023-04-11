@@ -67,7 +67,7 @@ def process_month_inflation(year_index):
 
     def process_rate(curr_cpi, prev_year_index, curr_month, prev_month):
         prev_cpi = data[prev_year_index][str(prev_month)]['cpi']
-        rate = (curr_cpi - prev_cpi) / curr_cpi
+        rate = (curr_cpi - prev_cpi) / prev_cpi
         data[year_index][curr_month]['rate'] = rate
 
     for month in range(1, 13):
