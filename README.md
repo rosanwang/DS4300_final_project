@@ -12,7 +12,7 @@
 - tweets.csv: tweets from 2008-2023 with the keywords related to "economy" (no minimum likes) 
 
 ### data_collection_files 
-- supporting code to obtain the csv files using Twint 
+- supporting code to obtain the data csv files
 ---
 ### Analysis 
 - sentiment_analysis.ipynb: conducts sentiment analysis via VADER library 
