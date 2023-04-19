@@ -19,3 +19,4 @@
 - cpi_sentiment.ipynb: conducts analysis using cpi data to visualize relationship between cpi and sentiment 
 - words_analysis.ipynb: looks at tweets with keywords "cheap" and "expensive"; analysis on words most associated with 'expensive' 
 - yearly_correlation_analysis_spark.ipynb: looks into correlation between inflation and sentiment over time  
+- flower_diagram.py: uses pyplutchik (source: https://github.com/alfonsosemeraro/pyplutchik) to format flower diagram for sentiment analysis 
