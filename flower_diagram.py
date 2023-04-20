@@ -35,7 +35,7 @@ def main():
     # Connecting to MongoDB
     client = pymongo.MongoClient("mongodb://localhost:27017")
     db = client["final_project"]
-    collection = db["project1"]
+    collection = db["all_tweets"]
     # Defining and executing a query to obtain an aggregated list of tweets per year
     pipeline = [{'$project': {
             'tweet': 1,
